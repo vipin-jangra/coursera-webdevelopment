@@ -1,0 +1,102 @@
+body{
+	width:100%;
+	font-family:cursive;
+}
+#heading{
+	
+	text-align:center;
+}
+
+#row
+{
+	background-color:pink;
+	width:100%;
+	height:100%;
+
+}
+#column,#column1,#column2{
+	
+	background-color:grey;
+	width:30%;
+	clear:right;
+	margin:14px;
+	float:left;
+	border:2px solid black;
+
+	
+	
+}
+#sections{
+	text-align:center;
+	width:30%;
+	background-color:pink;
+	margin:0px;
+	float:right;
+	padding:5px;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+}
+#sections1{
+	text-align:center;
+	width:30%;
+	background-color:red;
+	margin:0px;
+	float:right;
+	padding:5px;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+}
+#sections2{
+	
+	text-align:center;
+	width:30%;
+	background-color:yellow;
+	margin:0px;
+	float:right;
+	padding:5px;
+	border-left:2px solid black;
+	border-bottom:2px solid black;
+}
+#content{
+	float:right;
+	padding:5px;
+}
+/* desktops */
+@media screen and (min-width:992px)
+{
+	#container{
+		width=100%;
+	}
+	#column,#column1,#column2{
+		width:30%;
+		
+	}
+	
+}
+/* tablets */
+@media screen and (min-width:768px) and (max-width:991px)
+{
+	#container{
+		width=100%;
+	}
+	#column,#column1{
+		width:45.5%;
+	}
+	#column2{
+		width:96%;
+	}
+	
+}
+/* mobiles */
+@media screen and (max-width:768px)
+{
+	#container{
+		width=100%;
+	}
+	#column,#column1{
+		width:96%;
+	}
+	#column2{
+		width:96%;
+	}
+}
